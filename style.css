@@ -32,3 +32,10 @@ body {
 table {
     font-size: 30px;
 }
+button {
+    font-size: 20px;
+    height: 40px;
+    width: 272px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
