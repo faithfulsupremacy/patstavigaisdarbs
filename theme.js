@@ -1,9 +1,14 @@
+var mode = 1 //Tumšais režīms
+
 function theme() {
-    document.getElementById("themeButton").innerHTML = "Gaišais režīms";
 
-    var targetFrame = window.frames["laba"];
-    var targetBody = targetFrame.document.body;
-    targetBody.style.backgroundColor = "red";
-
-    //document.getElementsById("laba").style.backgroundColor = "black";
+    if (mode == 1) { //Tumšais režīms
+        document.getElementById("themeButton").innerHTML = "Gaišais režīms";
+        document.body.style.backgroundColor = "navy";   //1.html = midnightblue
+        mode = 2
+    } else { //Gaišais režīms
+        document.getElementById("themeButton").innerHTML = "Tumšais režīms";
+        document.body.style.backgroundColor = "gainsboro";
+        mode = 1
+    }
 }

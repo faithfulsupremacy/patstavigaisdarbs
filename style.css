@@ -3,7 +3,6 @@
 body {
     font-family: 'Comfortaa', cursive;
 }
-
 .title {
     text-align: center;
     font-size: 50px;
@@ -38,4 +37,5 @@ button {
     width: 272px;
     margin-bottom: 5px;
     border-radius: 10px;
+    box-shadow: 20px;
 }
