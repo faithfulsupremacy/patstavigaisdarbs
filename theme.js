@@ -1,7 +1,7 @@
 var mode = 1 //Tumšais režīms
 var labaFrame = parent.frames['laba'];
 var labaFrameDocument = labaFrame.document;
-var apaksaFrameDocument = 
+//var apaksaFrameDocument = 
 
 function theme() {
 
