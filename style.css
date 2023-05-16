@@ -38,4 +38,8 @@ button {
     margin-bottom: 5px;
     border-radius: 10px;
     box-shadow: 20px;
+    background-color: rgb(212, 212, 212);
+}
+button:hover {
+    background-color: rgb(197, 197, 197);
 }
