@@ -10,13 +10,14 @@
             }
         </style>
         <script src="theme.js"></script>
+        <script src="iframeimg.js"></script>
         <div class="title">Mans nākotnes ceļojums</div>
         <p class="normaltext">Šajā vietnē tiks parādītas vairākas vietas pasaulē, kur es vēlētos kādu dienu aizbraukt!* Šīs vietas iekļauj El Alameinu, Valensiju, kā arī daudzas citas!</p>
         <table class="img">
             <tr>
-                <th><img src="img/elalamein.png" class="bimg"></th>
-                <th><img src="img/valencia.png" class="bimg"></th>
-                <th><img src="img/venice.png" class="bimg"></th>
+                <th><a href="img/elalamein_large.jpg" target="imgframe"><img src="img/elalamein.png" class="bimg"></a></th>
+                <th><a href="img/valencia_large.jpg" target="imgframe"><img src="img/valencia.png" class="bimg"></a></th>
+                <th><a href="img/venice_large.jpg" target="imgframe"><img src="img/venice.png" class="bimg"></a></th>
             </tr>
             <tr>
                 <td>El Alameina</td>
@@ -25,6 +26,7 @@
             </tr>
         </table>
         <br><div class="img"></div>
+        <iframe name="imgframe"></iframe>
         <div class="smalltext">*Es patiesībā nevēlos doties uz nevienu no šīm vietām.</div>
     </body>
 </html>

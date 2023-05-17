@@ -43,3 +43,9 @@ button {
 button:hover {
     background-color: rgb(197, 197, 197);
 }
+iframe {
+    width: 700px;
+    height: 420px;
+    image-rendering: optimizeQuality;
+    border: 5px solid #87abce;
+}

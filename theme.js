@@ -5,8 +5,6 @@ var labaFrameDocument = labaFrame.document;
 
 function theme() {
 
-    
-
     if (mode == 1) { //Tumšais režīms
         document.getElementById("themeButton").innerHTML = "Gaišais režīms";
         document.body.style.backgroundColor = "navy";   //1.html = midnightblue
